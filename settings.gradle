@@ -8,5 +8,6 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "OAIDDemo"
+rootProject.name = "OAIDTest"
 include ':app'
+include ':OaidLib'
