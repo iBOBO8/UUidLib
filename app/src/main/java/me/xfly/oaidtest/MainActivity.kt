@@ -22,17 +22,17 @@ class MainActivity : AppCompatActivity() {
     private fun getUuidKotlin(context: Context){
         CoroutineScope(Dispatchers.IO).launch {
             var uuid = UuidUtil.getUUID(context)
-            Log.i("UUID kotlin",uuid)
+            Log.e("UUID kotlin",uuid)
         }
     }
 
     private fun getUuidJavaSync(){
         var uuid = APPUtil.getUUID(this);
-        Log.i("UUID sync",uuid)
+        Log.e("UUID sync",uuid)
     }
     private fun getUuidJavaAsync(){
         APPUtil.getUUID(this
-        ) { uuid -> Log.i("UUID async", uuid!!) }
+        ) { uuid -> Log.e("UUID async", uuid!!) }
 
     }
 }
