@@ -1,4 +1,4 @@
-package me.xfly.oaidtest
+package com.xxx.oaidlib
 
 import android.app.Application
 import com.tencent.mmkv.MMKV

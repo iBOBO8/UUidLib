@@ -1,12 +1,11 @@
-package me.xfly.oaidtest
+package com.xxx.oaidlib
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.xxx.uuidlib.R
 import kotlinx.coroutines.*
-import me.xfly.oaidlib.APPUtil
-import me.xfly.oaidlib.UuidUtil
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

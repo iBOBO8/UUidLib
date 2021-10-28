@@ -1,4 +1,4 @@
-package me.xfly.oaidtest
+package me.xfly.uuidlib
 
 import org.junit.Test
 

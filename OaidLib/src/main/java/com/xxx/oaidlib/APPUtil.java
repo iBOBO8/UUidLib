@@ -1,4 +1,4 @@
-package me.xfly.oaidlib;
+package com.xxx.oaidlib;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 

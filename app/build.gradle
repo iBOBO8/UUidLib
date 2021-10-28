@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "me.xfly.oaidtest"
+        applicationId "com.xxx.uuidlib"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
