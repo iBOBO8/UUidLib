@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getUuidJavaSync(){
-        var uuid = APPUtil.getUUID(this);
+        var uuid = UUIDUtils.getUUID(this);
         Log.e("UUID sync",uuid)
     }
     private fun getUuidJavaAsync(){
-        APPUtil.getUUID(this
+        UUIDUtils.getUUID(this
         ) { uuid -> Log.e("UUID async", uuid!!) }
 
     }

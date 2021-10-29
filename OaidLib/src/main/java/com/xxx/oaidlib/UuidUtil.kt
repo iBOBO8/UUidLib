@@ -2,9 +2,6 @@ package com.xxx.oaidlib
 
 
 import android.content.Context
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
@@ -136,7 +133,7 @@ object UuidUtil {
 
 
     suspend fun getUUID(context: Context): String = suspendCoroutine { continuation ->
-        APPUtil.getUUID(context
+        UUIDUtils.getUUID(context
         ) { uuid -> continuation.resume(uuid!!) }
     }
 }
